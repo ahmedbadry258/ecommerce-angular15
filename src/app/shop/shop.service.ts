@@ -28,4 +28,8 @@ getBrands(): Observable<Brand[]>{
 getTypes(): Observable<Type[]>{
   return this.http.get<Type[]>(`${this.baseUrl}types`)
 }
+
+findProductById(){
+
+}
 }
