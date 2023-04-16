@@ -32,4 +32,11 @@ getTypes(): Observable<Type[]>{
 findProductById(){
 
 }
+test(){
+
+}
+findTypeById(){
+
+}
+
 }
